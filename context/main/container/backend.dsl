@@ -7,6 +7,14 @@ backend = container "Backend" {
     //}
 
     loginController = component "login controller" {
-       description "mengatur dan mengkroscek login "
+       description "controling and cheking account"
+    }
+
+    bookingController = component "bookingController"{
+        description "appointment the doctor and payment"
+    }
+
+    dataDokter = component "data dokter"{
+        description "reservasion, schedule"
     }
 }

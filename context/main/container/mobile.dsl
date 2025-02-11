@@ -9,4 +9,16 @@ mobile = container "Mobile App" {
     loginScreen = component "login screen" {
         description "login untuk user dan dokter"
     }
+
+    signUp = component "signUp" {
+        description "create new account"
+    }
+
+    signIn = component "Login" {
+        description "already have account"
+    }
+
+    reservasion = component "reservasion" {
+        description "make an appointment with a doctor"
+    }
 }

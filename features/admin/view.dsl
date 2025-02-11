@@ -1,6 +1,6 @@
 dynamic web {
     title "admin"
 
-    admin -> webLogin
+    admin -> LoginPage
     autolayout lr
 }

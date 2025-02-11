@@ -1,1 +1,1 @@
-admin -> webLogin
+admin -> LoginPage "use"

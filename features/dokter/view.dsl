@@ -1,6 +1,6 @@
 dynamic web {
     title "dokter"
 
-    dokter -> profil_page
+    dokter -> LoginPage
     autolayout lr
 }

@@ -1,3 +1,4 @@
-dynamic mobile{
-    
+dynamic web {
+    title "admin"
+    user -> loginScreen   
 }

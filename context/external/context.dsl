@@ -4,3 +4,8 @@
 //     description = "The email system"
 //     tag "External System"
 // }
+
+//payment = softwareSystem "payment gateaway"{
+//    description = "Payment using thirdparty"
+//    tag = "External System"
+//}

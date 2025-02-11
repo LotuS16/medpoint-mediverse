@@ -5,4 +5,8 @@ backend = container "Backend" {
     //bookController = component "BookController" {
     //    description "Controller for book related operations."
     //}
+
+    loginController = component "login controller" {
+       description "mengatur dan mengkroscek login "
+    }
 }

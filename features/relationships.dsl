@@ -1,10 +1,6 @@
 // Add your relationships here
-backend -> payment
-backend -> notification
-!include dokter/relationship.dsl
-!include admin/relationship.dsl
-!include user/relationship.dsl
-!include superAdmin/relationship.dsl
+mobile -> payment "payment"
+mobile -> notification "e-mail or reservasion notification"
 !include LoginPage/relationship.dsl
 !include loginScreen/relationship.dsl
 !include signUp/relationship.dsl

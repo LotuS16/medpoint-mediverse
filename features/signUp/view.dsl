@@ -5,6 +5,6 @@ dynamic web {
     user -> signIn
     signIn -> loginController
     signUp -> loginController
-    loginController -> database
+    loginController -> database "save data and get data"
     autolayout lr
 }

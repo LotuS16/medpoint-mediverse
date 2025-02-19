@@ -4,6 +4,6 @@ dynamic web {
     admin -> chekBook
     dokter -> chekBook
     chekBook -> bookingController
-    bookingController -> database
+    bookingController -> database "get data"
     autolayout lr
 }

@@ -5,6 +5,6 @@ dynamic web {
     dokter -> signInA
     superAdmin -> signInA
     signInA -> loginController
-    loginController -> database
+    loginController -> database "get data"
     autolayout lr
 }
